@@ -1,0 +1,31 @@
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+h2{
+    color: black;
+}
+
+th, td{
+    color: black;
+}
+.tabla{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+}

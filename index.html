@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Ñequi</title>
+</head>
+<body>
+    <h1>Ñequi</h1>
+
+    <form id="crud-form">
+
+        <input type="hidden" id="id" value=" ">
+        <label for="name">Numero:</label>
+        
+        <input type="text" id="name" required>
+        <label for="name">Valor:</label>
+        
+        <input type="text" id="valor" required>
+        <button type="submit">Guardar</button>
+    
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Numero</th>
+                <th>Valor</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="crud-table-body">
+        </tbody>
+    </table>
+
+</body>
+<script src="./index.js"></script>
+</html>
