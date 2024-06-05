@@ -10,7 +10,7 @@ class Item{
  
 class CRUD {
     constructor(){
-        this.from = document.getElementById("crud-from");
+        this.form = document.getElementById("crud-from");
         this.nameImput = document.getElementById("name");
         this.valorImput = document.getElementById("valor");
         this.idImput = document.getElementById("id");

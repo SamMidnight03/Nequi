@@ -7,33 +7,36 @@
     <title>Ñequi</title>
 </head>
 <body>
-    <h1>Ñequi</h1>
+    <main>
 
-    <form id="crud-form">
-
-        <input type="hidden" id="id" value=" ">
-        <label for="name">Numero:</label>
+        <h1>Ñequi</h1>
         
-        <input type="text" id="name" required>
-        <label for="name">Valor:</label>
+        <form id="crud-form">
+            
+            <input type="hidden" id="id" value=" ">
+            <label for="name">Numero:</label>
+            
+            <input type="text" id="name" required>
+            <label for="name">Valor:</label>
+            
+            <input type="text" id="valor" required>
+            <button type="submit">Guardar</button>
+            
+        </form>
         
-        <input type="text" id="valor" required>
-        <button type="submit">Guardar</button>
-    
-    </form>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Numero</th>
-                <th>Valor</th>
-                <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody id="crud-table-body">
-        </tbody>
-    </table>
-
+        <table>
+            <thead>
+                <tr>
+                    <th>Numero</th>
+                    <th>Valor</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="crud-table-body">
+            </tbody>
+        </table>
+        
+    </main>
 </body>
 <script src="./index.js"></script>
 </html>

@@ -1,31 +1,29 @@
-.formulario{
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 10px;
+    height: 95vh;
+    background-image: url(./decracion\ arriba.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main{
+    width: 80%;
+    height: 60%;
 }
 
-button{
-    border-radius: 30px;
-    padding: 5px;
-    cursor: pointer;
-}
-
-h2{
-    color: black;
-}
-
-th, td{
-    color: black;
-}
-.tabla{
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 7px;
+h1{
+    font-size: 15vh;
+    text-align: right;
+    color: white;
+    font-family: "Signika Negative", sans-serif;
 }
