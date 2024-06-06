@@ -8,33 +8,38 @@
 </head>
 <body>
     <main>
-
         <h1>Ñequi</h1>
-        
-        <form id="crud-form">
+
+        <div class="Formulario">
+
+            <form id="crud-form">
+                
+                <input type="hidden" id="id" value=" ">
+                <label for="name">Numero:</label>
+                
+                <input type="text" id="name" required>
+                <label for="name">Valor:</label>
+                
+                <input type="text" id="valor" required>
+                <button type="submit">Guardar</button>
+                
+            </form>
             
-            <input type="hidden" id="id" value=" ">
-            <label for="name">Numero:</label>
-            
-            <input type="text" id="name" required>
-            <label for="name">Valor:</label>
-            
-            <input type="text" id="valor" required>
-            <button type="submit">Guardar</button>
-            
-        </form>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Numero</th>
-                    <th>Valor</th>
-                    <th>Acciones</th>
-                </tr>
-            </thead>
-            <tbody id="crud-table-body">
-            </tbody>
-        </table>
+        </div>
+
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Valor</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="crud-table-body">
+                </tbody>
+            </table>
+        </div>
         
     </main>
 </body>

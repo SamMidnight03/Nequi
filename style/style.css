@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
 
+:root{
+    --blanco: #f0f0ee;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +19,9 @@ body{
     background-image: url(./decracion\ arriba.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: var(--blanco);
 }
+
 main{
     width: 80%;
     height: 60%;
@@ -24,6 +30,22 @@ main{
 h1{
     font-size: 15vh;
     text-align: right;
-    color: white;
+    color: var(--blanco);
     font-family: "Signika Negative", sans-serif;
 }
+
+.Formulario{
+    font-size: 30px;
+    font-family: "Signika Negative", sans-serif;
+}
+
+.tabla{
+    font-size: 25px;
+    font-family: "Signika Negative", sans-serif;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+  }
